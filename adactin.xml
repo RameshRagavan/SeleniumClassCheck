@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="adactin">
+	<test name="checking">
+		<parameter name="uname" value="RameshRagavan"></parameter>
+		<parameter name="pword" value="Ramesh2012"></parameter>
+		<parameter name="selectid" value="location,hotels,room_type,room_nos,adult_room,child_room"></parameter>
+		<parameter name="selectval" value="Melbourne,Hotel Sunshine,Standard,2 - Two,4 - Four,2 - Two"></parameter>
+		<parameter name="datein" value="22/01/2020"></parameter>
+		<parameter name="dateout" value="23/01/2020"></parameter>
+		<classes>
+			<class name="org.adactin.loginPage">
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [adactin]">
+  <test name="checking(failed)">
+    <parameter name="selectid" value="location,hotels,room_type,room_nos,adult_room,child_room"/>
+    <parameter name="datein" value="22/01/2020"/>
+    <parameter name="uname" value="RameshRagavan"/>
+    <parameter name="dateout" value="23/01/2020"/>
+    <parameter name="pword" value="Ramesh2012"/>
+    <parameter name="selectval" value="Melbourne,Hotel Sunshine,Standard,2 - Two,4 - Four,2 - Two"/>
+    <classes>
+      <class name="org.adactin.loginPage">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="getBrowser"/>
+          <include name="voidfilltxt" invocation-numbers="0"/>
+          <include name="btnclick"/>
+          <include name="selectdrop" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.adactin.loginPage -->
+    </classes>
+  </test> <!-- checking(failed) -->
+</suite> <!-- Failed suite [adactin] -->

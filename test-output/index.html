@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-adactin">
+              <span class="suite-name border-passed">adactin</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-adactin">
+                    <span>D:\EclipseWorkSpace\Adactin\adactin.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-adactin">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-adactin">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-adactin">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-adactin">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-adactin">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-adactin">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-adactin" class="hide-methods passed suite-adactin"> (hide)</a> <!-- hide-methods passed suite-adactin -->
+                      <a href="#" panel-name="suite-adactin" class="show-methods passed suite-adactin"> (show)</a> <!-- show-methods passed suite-adactin -->
+                    </span>
+                    <div class="method-list-content passed suite-adactin">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-adactin" title="org.adactin.loginPage" hash-for-method="btnclick">btnclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-adactin" title="org.adactin.loginPage" hash-for-method="selectdrop(location,hotels,room_type,room_nos,adult_room,child_room, Melbourne,Hotel Sunshine,Standard,2 - Two,...)">selectdrop(location,hotels,room_type,room_nos,adult_room,child_room, Melbourne,Hotel Sunshine,Standard,2 - Two,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-adactin" title="org.adactin.loginPage" hash-for-method="voidfilltxt(RameshRagavan, Ramesh2012)">voidfilltxt(RameshRagavan, Ramesh2012)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-adactin -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-adactin" class="panel adactin">
+          <div class="suite-adactin-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.adactin.loginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="btnclick">
+                  </a> <!-- btnclick -->
+                  <span class="method-name">btnclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectdrop(location,hotels,room_type,room_nos,adult_room,child_room, Melbourne,Hotel Sunshine,Standard,2 - Two,...)">
+                  </a> <!-- selectdrop(location,hotels,room_type,room_nos,adult_room,child_room, Melbourne,Hotel Sunshine,Standard,2 - Two,...) -->
+                  <span class="method-name">selectdrop</span>
+                  <span class="parameters">(location,hotels,room_type,room_nos,adult_room,child_room, Melbourne,Hotel Sunshine,Standard,2 - Two,4 - Four,2 - Two, 22/01/2020, 23/01/2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="voidfilltxt(RameshRagavan, Ramesh2012)">
+                  </a> <!-- voidfilltxt(RameshRagavan, Ramesh2012) -->
+                  <span class="method-name">voidfilltxt</span>
+                  <span class="parameters">(RameshRagavan, Ramesh2012)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-adactin-class-passed -->
+        </div> <!-- panel adactin -->
+        <div panel-name="test-xml-adactin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\EclipseWorkSpace\Adactin\adactin.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;adactin&quot;&gt;
+  &lt;test name=&quot;checking&quot;&gt;
+    &lt;parameter name=&quot;selectid&quot; value=&quot;location,hotels,room_type,room_nos,adult_room,child_room&quot;/&gt;
+    &lt;parameter name=&quot;datein&quot; value=&quot;22/01/2020&quot;/&gt;
+    &lt;parameter name=&quot;uname&quot; value=&quot;RameshRagavan&quot;/&gt;
+    &lt;parameter name=&quot;dateout&quot; value=&quot;23/01/2020&quot;/&gt;
+    &lt;parameter name=&quot;pword&quot; value=&quot;Ramesh2012&quot;/&gt;
+    &lt;parameter name=&quot;selectval&quot; value=&quot;Melbourne,Hotel Sunshine,Standard,2 - Two,4 - Four,2 - Two&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.adactin.loginPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- checking --&gt;
+&lt;/suite&gt; &lt;!-- adactin --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-adactin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for adactin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">checking (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-adactin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for adactin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-adactin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for adactin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_adactin');
+function tableData_adactin() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectdrop')
+data.setCell(0, 2, 'org.adactin.loginPage')
+data.setCell(0, 3, 2031);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'btnclick')
+data.setCell(1, 2, 'org.adactin.loginPage')
+data.setCell(1, 3, 1418);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'voidfilltxt')
+data.setCell(2, 2, 'org.adactin.loginPage')
+data.setCell(2, 3, 500);
+window.suiteTableData['adactin']= { tableData: data, tableDiv: 'times-div-adactin'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-adactin">
+              </div> <!-- times-div-adactin -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-adactin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for adactin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-adactin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-adactin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.adactin.loginPage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">getBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">voidfilltxt(RameshRagavan, Ramesh2012)</span>
+                <span class="method-start">8877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">btnclick</span>
+                <span class="method-start">9394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectdrop(location,hotels,room_type,room_nos,adult_room,child_room, Melbourne,Hotel Sunshine,Standard,2 - Two,...)</span>
+                <span class="method-start">10816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">12902 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

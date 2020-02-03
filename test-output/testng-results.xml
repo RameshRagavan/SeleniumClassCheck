@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="adactin" duration-ms="4033" started-at="2020-01-22T06:35:22Z" finished-at="2020-01-22T06:35:26Z">
+    <groups>
+    </groups>
+    <test name="checking" duration-ms="4033" started-at="2020-01-22T06:35:22Z" finished-at="2020-01-22T06:35:26Z">
+      <class name="org.adactin.loginPage">
+        <test-method status="PASS" signature="getBrowser()[pri:0, instance:org.adactin.loginPage@7c0e2abd]" name="getBrowser" is-config="true" duration-ms="8817" started-at="2020-01-22T12:05:13Z" finished-at="2020-01-22T12:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="voidfilltxt(java.lang.String, java.lang.String)[pri:0, instance:org.adactin.loginPage@7c0e2abd]" name="voidfilltxt" duration-ms="500" started-at="2020-01-22T12:05:22Z" finished-at="2020-01-22T12:05:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RameshRagavan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ramesh2012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voidfilltxt -->
+        <test-method status="PASS" signature="btnclick()[pri:0, instance:org.adactin.loginPage@7c0e2abd]" name="btnclick" duration-ms="1418" started-at="2020-01-22T12:05:23Z" depends-on-methods="org.adactin.loginPage.voidfilltxt" finished-at="2020-01-22T12:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btnclick -->
+        <test-method status="PASS" signature="selectdrop(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.adactin.loginPage@7c0e2abd]" name="selectdrop" duration-ms="2031" started-at="2020-01-22T12:05:24Z" finished-at="2020-01-22T12:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[location,hotels,room_type,room_nos,adult_room,child_room]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Melbourne,Hotel Sunshine,Standard,2 - Two,4 - Four,2 - Two]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/01/2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23/01/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectdrop -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:org.adactin.loginPage@7c0e2abd]" name="closebrowser" is-config="true" duration-ms="0" started-at="2020-01-22T12:05:26Z" finished-at="2020-01-22T12:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- org.adactin.loginPage -->
+    </test> <!-- checking -->
+  </suite> <!-- adactin -->
+</testng-results>
